@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9958B024B39DE213B3D2542245FB920702BBB22C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9958B024B39DE213B3D2542245FB920702BBB22C" : 9223372036854775807,
+    "CB564A1F65252B8942B9D4264BEAF3859CF6DFA6" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "728FDB98-C153-4EBB-AFBA-A616482D5C6C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9958B024B39DE213B3D2542245FB920702BBB22C" : "StroryboardConstraint\/",
+    "CB564A1F65252B8942B9D4264BEAF3859CF6DFA6" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "StoryboardConstraint",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Demo\/StoryboardConstraint.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dimix\/StroryboardConstraint",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9958B024B39DE213B3D2542245FB920702BBB22C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/git.niceapp.it\/ios_common.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CB564A1F65252B8942B9D4264BEAF3859CF6DFA6"
+    }
+  ]
+}
