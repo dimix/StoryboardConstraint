@@ -24,6 +24,12 @@ You can also set a custom constraint identifier and get it like this:
 ```swift
 view.constraint(withIdentifier: "customWidth", searchInSubviews: true)?.constant = 50
 ```
+If you want you can get all the constraints with a speficied attribute like this:
+
+```swift
+squareView?.constraints(withAttribute: .height)
+```
+This method returns all the constraints found ordered by priority.
 
 ## Requirements
 
