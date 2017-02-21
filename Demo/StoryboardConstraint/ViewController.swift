@@ -35,14 +35,14 @@ class ViewController: UIViewController {
 			
 			self.subView?.heightConstraint?.constant = 200
 			self.subView?.proportionalWidthConstraint?.constant = -50
-			
+
 			self.subSubView?.proportionalHeightConstraint?.constant = 0
-			
+
 			self.subView2?.leadingConstraint?.constant = 50
 			self.subView2?.trailingConstraint?.constant = 50
 			self.subView2?.topConstraint?.constant = 40
 			self.subView2?.bottomConstraint?.constant = 100
-			
+
 			self.squareView?.widthConstraint?.constant = 40
 			self.squareView?.heightConstraint?.constant = 40
 			
