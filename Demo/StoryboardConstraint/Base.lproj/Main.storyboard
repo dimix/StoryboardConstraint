@@ -39,6 +39,8 @@
                                                 <color key="backgroundColor" red="0.072544642859999994" green="0.67039246180000001" blue="0.3252977729" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="100" identifier="customWidth" id="22W-YY-l7F"/>
+                                                    <constraint firstAttribute="height" priority="999" constant="100" id="QEq-9s-qct"/>
+                                                    <constraint firstAttribute="width" priority="999" constant="100" id="jKg-qq-icL"/>
                                                     <constraint firstAttribute="height" constant="100" identifier="customHeight" id="q8i-9l-1Il"/>
                                                 </constraints>
                                             </view>
@@ -68,6 +70,8 @@
                                         <constraints>
                                             <constraint firstAttribute="width" constant="20" id="2Uu-P6-wYd"/>
                                             <constraint firstAttribute="height" constant="20" id="VPq-98-PuF"/>
+                                            <constraint firstAttribute="width" priority="999" constant="20" id="YHM-2y-EBG"/>
+                                            <constraint firstAttribute="height" priority="999" constant="20" id="oZa-cL-LQg"/>
                                         </constraints>
                                     </view>
                                 </subviews>
