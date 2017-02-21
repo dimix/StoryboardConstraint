@@ -1,7 +1,7 @@
-# StroryboardConstraint
+# StoryboardConstraint
 A simple way to use programmatically Autolayout Constraint created in Storyboard.
 
-![alt tag](https://raw.githubusercontent.com/dimix/StroryboardConstraint/master/readme-images/demo.gif)
+![alt tag](https://raw.githubusercontent.com/dimix/StoryboardConstraint/master/readme-images/demo.gif)
 
 ## Features
 - Predefined basic constraints: top, bottom, leading, trailing, height, width, centerX, centerY
