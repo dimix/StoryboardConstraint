@@ -28,7 +28,7 @@ view.constraint(withIdentifier: "customWidth", searchInSubviews: true)?.constant
 If you want you can get all the constraints with a specified attribute like this:
 
 ```swift
-squareView?.constraints(withAttribute: .height)
+view.constraints(withAttribute: .height)
 ```
 This method returns all the constraints found ordered by priority.
 
