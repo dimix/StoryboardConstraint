@@ -46,8 +46,8 @@ class ViewController: UIViewController {
 			self.squareView?.widthConstraint?.constant = 40
 			self.squareView?.heightConstraint?.constant = 40
 			
-			self.squareView?.xAlignConstraint?.constant = -40
-			self.squareView?.yAlignConstraint?.constant = 40
+			self.squareView?.centerXConstraint?.constant = -40
+			self.squareView?.centerYConstraint?.constant = 40
 			
 			self.view.setNeedsUpdateConstraints()
 			

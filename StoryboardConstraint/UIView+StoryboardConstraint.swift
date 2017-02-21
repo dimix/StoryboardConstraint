@@ -21,8 +21,8 @@ extension UIView
 	var leadingConstraint:NSLayoutConstraint? { return superview?.constraint(withAttribute: .leading, firstItem: self) }
 	var trailingConstraint:NSLayoutConstraint? { return superview?.constraint(withAttribute: .trailing, secondItem: self) }
 	
-	var xAlignConstraint:NSLayoutConstraint? { return superview?.constraint(withAttribute: .centerX, firstItem: self) }
-	var yAlignConstraint:NSLayoutConstraint? { return superview?.constraint(withAttribute: .centerY, firstItem: self) }
+	var centerXConstraint:NSLayoutConstraint? { return superview?.constraint(withAttribute: .centerX, firstItem: self) }
+	var centerYConstraint:NSLayoutConstraint? { return superview?.constraint(withAttribute: .centerY, firstItem: self) }
 	
 	public func constraint(withIdentifier identifier:String, firstItem: UIView? = nil, secondItem: UIView? = nil, searchInSubviews:Bool = false) -> NSLayoutConstraint?
 	{
