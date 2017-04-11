@@ -7,6 +7,26 @@ A simple way to use programmatically Autolayout Constraint created in Storyboard
 - Predefined basic constraints: top, bottom, leading, trailing, height, width, centerX, centerY
 - A complete method to find a specific constraint through the views
 
+#### Podfile
+
+To integrate StoryboardConstraint into your Xcode project using CocoaPods, specify it in your `Podfile`:
+
+```ruby
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+
+target 'TargetName' do
+  use_frameworks!
+  pod 'StoryboardConstraint'
+end
+```
+
+Then, run the following command:
+
+```bash
+$ pod install
+```
+
 ## How to Use
 
 #### 1. Add UIView+StoryboardConstraint.swift on your project
