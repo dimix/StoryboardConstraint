@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension UIView
+public extension UIView
 {
 	var widthConstraint:NSLayoutConstraint? { return constraint(withAttribute: .width) }
 	var heightConstraint:NSLayoutConstraint? { return constraint(withAttribute: .height) }
