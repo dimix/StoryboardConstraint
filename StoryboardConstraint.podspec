@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name               = 'StoryboardConstraint'
-  s.version            = '0.1.0'
+  s.version            = '0.1.1'
   s.summary            = 'A simple way to use programmatically Autolayout Constraint created in Storyboard.'
   s.description        = <<-DESC
 A simple way to use programmatically Autolayout Constraint created in Storyboard.
@@ -11,7 +11,7 @@ A simple way to use programmatically Autolayout Constraint created in Storyboard
   s.screenshots        = 'https://raw.githubusercontent.com/dimix/StoryboardConstraint/master/readme-images/demo.gif'
   s.license            = "MIT"
   s.author             = { 'Dimitri Giani' => 'dimitri.giani@gmail.com' }
-  s.platform           = :ios, "8.0"
+  s.platform           = :ios, "9.0"
   s.source             = { :git => 'https://github.com/dimix/StoryboardConstraint.git', :tag => "#{s.version}" }
   s.source_files       = "Classes", "StoryboardConstraint/*.{swift}"
 end

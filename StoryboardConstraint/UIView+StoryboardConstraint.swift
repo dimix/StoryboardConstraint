@@ -156,6 +156,6 @@ public extension UIView
 			}
 		}
 		
-		return foundConstraints.sorted(by: { $0.priority > $1.priority })
+		return foundConstraints.sorted(by: { $0.priority.rawValue > $1.priority.rawValue })
 	}
 }
