@@ -34,7 +34,7 @@ public extension UIView
 	- returns:
 		An optional NSLayoutConstraint
 	*/
-	public func constraint(withIdentifier identifier:String, firstItem: UIView? = nil, secondItem: UIView? = nil, searchInSubviews:Bool = false) -> NSLayoutConstraint?
+	func constraint(withIdentifier identifier:String, firstItem: UIView? = nil, secondItem: UIView? = nil, searchInSubviews:Bool = false) -> NSLayoutConstraint?
 	{
 		var constraint:NSLayoutConstraint?
 		
@@ -95,7 +95,7 @@ public extension UIView
 	- returns:
 		An optional NSLayoutConstraint
 	*/
-	public func constraint(withAttribute attribute: NSLayoutAttribute, firstItem: UIView? = nil, secondItem: UIView? = nil, searchInSubviews:Bool = false) -> NSLayoutConstraint?
+	func constraint(withAttribute attribute: NSLayoutConstraint.Attribute, firstItem: UIView? = nil, secondItem: UIView? = nil, searchInSubviews:Bool = false) -> NSLayoutConstraint?
 	{
 		if let constraint = constraints(withAttribute: attribute, firstItem: firstItem, secondItem: secondItem).first
 		{
@@ -124,7 +124,7 @@ public extension UIView
 	- returns:
 		An array of NSLayoutConstraint
 	*/
-	public func constraints(withAttribute attribute: NSLayoutAttribute, firstItem: UIView? = nil, secondItem: UIView? = nil) -> [NSLayoutConstraint]
+	func constraints(withAttribute attribute: NSLayoutConstraint.Attribute, firstItem: UIView? = nil, secondItem: UIView? = nil) -> [NSLayoutConstraint]
 	{
 		var foundConstraints:[NSLayoutConstraint] = []
 		

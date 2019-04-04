@@ -56,5 +56,5 @@ This method returns all the constraints found ordered by priority.
 
 Current version is compatible with:
 
-* Swift 4.0
-* iOS 9 or later
+* Swift 5.0
+* iOS 10 or later
